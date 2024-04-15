@@ -1,0 +1,117 @@
+.page{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: column;
+    background-color: beige;
+    overflow-y: scroll;
+    background-color: #FA8BFF;
+    background-image: linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+}
+
+.header{
+    height: 75px;
+    width: 100%;
+    background-color: #8EC5FC;
+    background-image: linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fdiv{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+body{
+    overflow: scroll;
+}
+
+#Fimg{
+    height: 60px;
+    width: 60px;
+    box-shadow: 3px 3px 2px black;
+}
+
+.content{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dish p{
+    width: 420px;
+}
+
+.dish{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin: 10px;
+    height: auto;
+    width: 80%;
+    box-shadow: 10px 5px 3px black;
+}
+
+.conimg{
+    position: relative;
+}
+
+.content img{
+    height: 100%;
+    width: 200px;
+    border-radius: 20px;
+    transition: all 57ms linear 0s;
+}
+
+.conimg .spanning{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(40, 37, 37, 0.375);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    border-radius: 20px;
+    color: white;
+    transition: all 0.3s linear 0s;
+}
+
+.spanning:hover{
+    opacity: 1;
+}
+
+.content img:hover{
+    transform: scale(1.07);
+}
+
+.footer{
+    position: relative;
+    top:100%;
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+    height: 150px;
+    width: 100%;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+#href{
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    width: 30%;
+    align-items: center;
+}
